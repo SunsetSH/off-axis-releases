@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160">
+  <g transform="translate(8 16) scale(0.25)">
+    <rect width="512" height="512" rx="112" fill="#0f172a"/>
+    <circle cx="256" cy="256" r="172" fill="#1e3a8a" stroke="#60a5fa" stroke-width="16"/>
+    <rect x="188" y="221.75" width="200" height="112.5" rx="6" fill="#16a34a" fill-opacity="0.55" stroke="#4ade80" stroke-width="12"/>
+    <rect x="156" y="199.75" width="200" height="112.5" rx="6" fill="none" stroke="#94a3b8" stroke-width="7" stroke-dasharray="16 10"/>
+    <circle cx="256" cy="256" r="11" fill="#f8fafc"/>
+  </g>
+  <text x="164" y="94" font-family="'Segoe UI', system-ui, -apple-system, Roboto, sans-serif" font-size="76" font-weight="800" letter-spacing="-1" fill="#f8fafc">Off<tspan fill="#60a5fa">Axis</tspan></text>
+  <text x="166" y="132" font-family="'Segoe UI', system-ui, -apple-system, Roboto, sans-serif" font-size="25" fill="#9aa4b2">калькулятор установки проектора</text>
+</svg>

@@ -1,0 +1,26 @@
+name: Добавить проектор / Request a projector
+description: Нет нужной модели в каталоге или нашли неточность в данных
+title: 'Проектор: '
+labels: ['projector']
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Модель
+      description: Производитель и точное название, например «Hisense Vidda C5 Pro».
+    validations:
+      required: true
+  - type: input
+    id: spec
+    attributes:
+      label: Ссылка на официальную спецификацию
+      description: Страница производителя или инструкция. Расчёт строится только на технических характеристиках.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Что важно знать
+      description: Сдвиг объектива по вертикали и горизонтали (в процентах или в долях кадра, как указано в спецификации), диапазон зума или throw ratio, размер кадра. Если нашли ошибку в уже добавленной модели, опишите её.
+    validations:
+      required: false

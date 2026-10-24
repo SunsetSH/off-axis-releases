@@ -1,0 +1,27 @@
+name: Ошибка или пожелание / Bug or idea
+description: Что-то считается неверно, не работает или хочется новую возможность
+title: ''
+labels: ['bug']
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Где вы пользуетесь
+      options:
+        - Браузер (offaxis.ru)
+        - Windows-приложение
+        - Android-приложение
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Версия
+      description: Показана в справке (кнопка «Справка») и в названии файла релиза.
+  - type: textarea
+    id: what
+    attributes:
+      label: Что произошло и что ожидалось
+      description: Если можно, приложите ссылку на сцену («Скопировать ссылку» в меню «Сцена») или скриншот.
+    validations:
+      required: true
