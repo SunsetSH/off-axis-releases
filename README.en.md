@@ -31,6 +31,7 @@ A projector spec says something like "vertical shift ±100%, horizontal ±35%". 
 - Projector matching for your room and side-by-side comparison of two projectors.
 - Installation report (PDF, PNG) with dimensioned drawings.
 - Catalog of projectors (Hisense / Vidda, XGIMI, Dangbei, JMGO, Epson and more) with sources and a "verified / not verified" mark; your own projectors can be added.
+- A projector setup guide on the website, [in English](https://offaxis.ru/en/projector-setup-guide/) and [in Russian](https://offaxis.ru/ustanovka-proektora/): placement and height, HDMI ARC sound, focus, brightness, HDR and Dolby Vision, with diagrams. The Setup guide button opens it from the app.
 - Russian and English UI, cm / m / inches, light and dark theme, shareable scene links, undo / redo.
 
 ## Get it
