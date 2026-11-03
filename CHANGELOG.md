@@ -5,6 +5,30 @@
 
 ## [Unreleased]
 
+## [1.3.0] — 2026-11-03
+
+### Добавлено
+
+- Три режима интерфейса: «Быстрый расчёт», «Новичок» и «Эксперт». Переключатель стоит первым в шапке, выбор запоминается; при первом заходе открывается окно «Что вы хотите узнать?». Ссылка `?mode=simple|advanced|expert` открывает нужный режим
+- «Быстрый расчёт»: допустимое расстояние до экрана, диапазон диагоналей для выбранного расстояния, допустимая высота линзы, проекционное отношение. Расстояние можно двигать ползунком в допустимых пределах, а при смене экрана или проектора оно само подстраивается. Значение, введённое вручную за пределами диапазона, подсвечивается ошибкой. Выбор «на столе / полу» или «под потолком», упрощённая 3D-сцена (только вращение) на всю ширину
+- «Новичок»: сдвиг объектива ползунками с отмеченной допустимой зоной, подписи простыми словами
+- Окно «Характеристики» с заполненными данными проектора и окно «Найти по параметрам»: фильтр по яркости (любой стандарт), разрешению и наличию сдвига. Проекторы без значения остаются в списке: название оранжевое, рядом «?» с пояснением
+- Цель Метрики для выбора режима
+
+### Изменено
+
+- Стартовая страница: индикатор загрузки и читаемый текст, пока приложение запускается
+- Необязательные панели и настройки скрыты в «Быстром расчёте» и «Новичке», в «Эксперте» всё осталось как было. Тем, у кого уже есть сохранённые настройки, открывается «Эксперт»
+
+### English
+
+- Three interface modes: Quick calc, Beginner and Expert. The switch is the first control in the header and the choice is remembered; a first visit opens a "What do you want to find out?" dialog. The link `?mode=simple|advanced|expert` opens a given mode
+- Quick calc: the allowed distance to the screen, the range of screen sizes for a chosen distance, the allowed lens height and the throw ratio. A slider moves the distance within the allowed range, and it adjusts itself when the screen or the projector changes. A value typed outside the range is flagged as an error. Table / floor or ceiling mount, and a simplified full-width 3D scene (rotate only)
+- Beginner: lens shift with sliders that mark the allowed zone, plain wording
+- A "Specifications" dialog with the projector's filled-in data and a "Find by specs" dialog: filter by brightness (any standard), resolution and lens shift. Projectors that lack a value stay in the list: the name is orange with a "?" that explains why
+- A Metrika goal for the mode choice
+- Changed: a start page with a loading indicator and readable text while the app starts; optional panels and settings are hidden in Quick calc and Beginner, Expert keeps everything as before. Visitors with saved settings open in Expert
+
 ## [1.2.0] — 2026-10-30
 
 ### Добавлено

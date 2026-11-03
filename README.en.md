@@ -24,6 +24,8 @@ A projector spec says something like "vertical shift ±100%, horizontal ±35%". 
 
 ## Features
 
+- Three modes: Quick calc (distance to the screen, installation height, a distance slider), Beginner (the scene and lens shift with sliders) and Expert (every setting). The mode is chosen at the top of the page and remembered.
+- Find a projector by specs: filter by brightness, resolution and lens shift; a "Specifications" dialog shows everything the record states.
 - Interactive 3D scene: room, screen, projector, beam, the zone of allowed positions and a viewer in a chair.
 - Two-axis lens shift forecast: how much horizontal shift is left at a given vertical shift, and vice versa. If it does not fit, the app suggests where to move the projector and estimates the keystone needed.
 - Brightness in lux, nits and fL for the chosen image size and room type, with plain-language advice.
