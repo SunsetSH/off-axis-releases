@@ -5,6 +5,18 @@
 
 ## [Unreleased]
 
+## [1.4.0] — 2026-11-04
+
+### Исправлено
+
+- Телефон: в переключателе режимов виден весь текст, в «Быстром расчёте» шаги идут по порядку 1, 2, 3, шапка занимает три ряда вместо четырёх (единицы и язык перенесены в настройки), меню не выходят за край экрана, кнопки готовых установок стоят двумя рядами, закреплённая плашка вердикта стала ниже
+- Компьютер: шапка умещается в один ряд от 1280 px, подписи сцены больше не закрывают панели сцены, меню и плашку вердикта, на ширине до 1279 px сцена получила больше места, а её панели не перекрывают картинку, в «Быстром расчёте» сцена не обрезается снизу, подписи в плитках показываются полностью, левая колонка выровнена по верху сцены
+
+### English
+
+- Phone: the mode switch shows whole labels, Quick calc goes through steps 1, 2, 3 in order, the header takes three rows instead of four (units and language moved to the settings), menus stay on the screen, install presets sit in two rows, the stuck verdict bar is shorter
+- Desktop: the header keeps one row from 1280 px, scene labels no longer cover the scene toolbars, menus and the verdict bar, up to 1279 px the scene has more room and its toolbars leave the picture, the Quick calc scene is no longer cut at the bottom, tile labels are shown in full, the left column lines up with the top of the scene
+
 ## [1.3.0] — 2026-11-03
 
 ### Добавлено
