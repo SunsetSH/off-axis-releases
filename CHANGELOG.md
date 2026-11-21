@@ -5,6 +5,31 @@
 
 ## [Unreleased]
 
+## [1.5.0] — 2026-11-21
+
+### Добавлено
+
+- 16 лазерных проекторов 2023–2025 годов: XGIMI Horizon Ultra, Horizon S Pro и S Max; Hisense C2, C2 Pro и C2 Ultra; JMGO N1S Ultra, N1S Ultimate, N1S Pro 4K и N1S 4K; Dangbei Atom и Mars Pro 2; Valerion VisionMaster Max и Pro 2; ультракороткофокусные Hisense PL1 и PX2-PRO
+- Ультракороткофокусные проекторы: расстояние от корпуса до стены и высота кадра над столом считаются по официальной таблице установки. Для своего проектора можно ввести отрицательный выступ объектива
+- В отчёте для монтажа QR-код со ссылкой на этот расчёт
+- В подсказках со знаком вопроса ссылка на нужный раздел инструкции (открывается в новой вкладке)
+
+### Исправлено
+
+- Расстояние от передней панели корпуса до экрана для проекторов с выступающим объективом
+- Инструкция: проверены факты, объяснение стандартного смещения кадра совпадает со схемой в окне добавления проектора
+- Шапка: при смене языка и шрифта элементы не сдвигаются и не переносятся
+
+### English
+
+- 16 laser projectors from 2023–2025: XGIMI Horizon Ultra, Horizon S Pro and S Max; Hisense C2, C2 Pro and C2 Ultra; JMGO N1S Ultra, N1S Ultimate, N1S Pro 4K and N1S 4K; Dangbei Atom and Mars Pro 2; Valerion VisionMaster Max and Pro 2; the ultra-short-throw Hisense PL1 and PX2-PRO
+- Ultra-short-throw projectors: the body-to-wall distance and the image height above the table follow the official installation table. A custom projector accepts a negative lens protrusion
+- The installation report has a QR code that links to this calculation
+- Hints with a question mark link to the matching guide section (opens in a new tab)
+- Fixed: the distance from the front of the body to the screen for projectors with a protruding lens
+- Guide: facts checked, the standard image offset is explained the same way as the diagram in the add-projector dialog
+- Header: nothing moves or wraps when the language or the font changes
+
 ## [1.4.0] — 2026-11-04
 
 ### Исправлено
