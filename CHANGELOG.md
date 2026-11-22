@@ -19,6 +19,8 @@
 - Расстояние от передней панели корпуса до экрана для проекторов с выступающим объективом
 - Инструкция: проверены факты, объяснение стандартного смещения кадра совпадает со схемой в окне добавления проектора
 - Шапка: при смене языка и шрифта элементы не сдвигаются и не переносятся
+- Инструкция: схема «как считают проценты сдвига» показывала кадр не там. При 100 % по правилу Epson, Sony, Canon центр кадра поднят на одну его высоту, по правилу Hisense, Vidda нижний край кадра стоит на оси объектива
+- Окно добавления проектора: ошибки названы понятно (раздел, поле и что исправить) вместо служебных записей вроде `throw.ratioMin`
 
 ### English
 
@@ -29,6 +31,8 @@
 - Fixed: the distance from the front of the body to the screen for projectors with a protruding lens
 - Guide: facts checked, the standard image offset is explained the same way as the diagram in the add-projector dialog
 - Header: nothing moves or wraps when the language or the font changes
+- Guide: the “how shift percentages are counted” diagram placed the image wrongly. At 100% by the Epson, Sony, Canon rule the image center rises by one image height; by the Hisense, Vidda rule the bottom edge sits on the lens axis
+- Add-projector dialog: errors are readable (section, field and what to fix) instead of internal paths like `throw.ratioMin`
 
 ## [1.4.0] — 2026-11-04
 
